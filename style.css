@@ -1,0 +1,197 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right,#667db6,#0082c8,#0082c8);
+    font-family: sans-serif;
+}
+
+img{
+    width: 140px;
+}
+
+
+.countainer{
+    width: 300px;
+    background-color: #ffff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+
+.app-title p{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    color:#293251;
+}
+
+.notification{
+    background-color: #e1081a;
+    display: none;
+    color: #ffff;
+    width: 50%;
+    margin-left: 70px;
+    border-radius: 8px;
+    padding: 2px;
+    font-size: 15px;
+    
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.weatherContainers{
+    width: 300px;
+    height: 260px;
+    background-color: #f4f9ff;
+}
+
+.weather-Icon{
+    width: 300px;
+    height: 128px;
+    position: relative;
+}
+
+
+.span{
+    /* right: 37rem; */
+    top: 120px;
+    background-color: orange;
+    width: 30px;
+    padding: 6px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.weather-Icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperatore-Value{
+    width: 300px;
+    height: 60px;
+}
+.temperatore-Value p{
+    font-size: 4em;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #293251;
+
+}
+
+.temperatore-Value span{
+    color: #293251;
+
+}
+
+.temperatore-description{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location{
+    text-align: center;
+    color: #293251;
+}
+
+.input{
+    text-align: center;
+    margin-top: 60px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 200px;
+}
+
+.input input{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 35px;
+    outline: none;
+    /* border: none; */
+    box-shadow: 2px 2px 2px;
+    padding: 8px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+    align-items: center;
+    justify-content: center;
+}
+
+.input input:hover{
+    background-color: #aecef6;
+    width: 75%;
+    height: 40px;
+}
+
+.input .btn{
+    width: 50%;
+    margin-left: 65px;
+    width: 50%;
+    height: 30px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #d8515f;
+    color: #ffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+.btn:hover{
+    background-color:#df0e0e; ;
+    
+}
+
+.clear{
+    width: 60px;
+    /* position: absolute; */
+    right: 36rem;
+    /* bottom: 155px; */
+    padding: 1px;background-color: yellow;
+    border-radius: 3px;
+    border: none;
+    font-size: 13px;
+    color: rgb(141, 29, 29);
+    font-weight: bold;
+    cursor: pointer;
+    height: 20px;
+    margin-left: 14rem;
+    /* margin-bottom: 100px; */
+}
+
+@media(max-width:628px){
+    .countainer{
+        width: 250px;
+        height: 100px;
+    }
+}
